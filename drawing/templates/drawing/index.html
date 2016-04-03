@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>한줄</title>
+  <title>한줄</title>
 </head>
 <body>
-<h1>TEST</h1>
+  <h1>TEST</h1>
+    <div>
+    {% for post in post_list %}
+      <img src="{{ post.drawing.url }}">
+      <p>{{ post.content }}</p>
+      <p>{{ post.created }}</p>
+    {% endfor %}
+    </div>
 </body>
 </html>
