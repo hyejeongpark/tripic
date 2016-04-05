@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>한줄</title>
-  {% load staticfiles %}
-  <link rel="stylesheet" type="text/css" href="{% static 'drawing/style.css' %}">
-</head>
-<body>
+{% extends "drawing/base.html" %}
+{% block title %} 한줄 {% endblock %}
+{% block content %}
   <h1>TEST</h1>
     <div>
     {% for post in post_list %}
@@ -14,5 +9,4 @@
       <p>{{ post.created }}</p>
     {% endfor %}
     </div>
-</body>
-</html>
+{% endblock %}
