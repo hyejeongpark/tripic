@@ -17,10 +17,11 @@ from django.conf import settings
 from django.conf.urls import url
 from django.conf.urls.static import static
 from django.contrib import admin
+import album.views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', 'album.views.index')
+    url(r'^$', album.views.index)
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
