@@ -1,0 +1,23 @@
+header {
+  background: url("image/header.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 800px;
+  text-align: center;
+  width: 100%;
+}
+
+header h1 {
+  color: white;
+  font-size: 9rem;
+  text-shadow: 0 0 15px #222;
+  padding-top: 12rem;
+}
+
+header p {
+  color: white;
+  text-shadow: 0 0 15px #222;
+  padding-top: 4rem;
+}
