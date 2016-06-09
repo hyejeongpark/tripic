@@ -1,5 +1,5 @@
 .back {
-  background: url("image/back.jpg") no-repeat center center fixed;
+  background: url("image/back-2048.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -77,4 +77,23 @@ footer {
 footer p {
   padding: 25px 0;
   margin: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+  .title h1 {
+    font-size: 5rem;
+  }
+
+  .title p {
+    text-align: left;
+  }
+
+  header h2 {
+    font-size: 4rem;
+  }
+
+  section {
+    padding: 40px 0;
+  }
 }
