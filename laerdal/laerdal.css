@@ -16,12 +16,13 @@
 }
 
 .title h1 {
-  font-size: 9rem;
+  font-size: 5rem;
   padding-top: 12rem;
 }
 
 .title p {
   padding-top: 4rem;
+  text-align: left;
 }
 
 main {
@@ -36,7 +37,7 @@ header {
 
 header h2 {
   color: #424358;
-  font-size: 5rem;
+  font-size: 4rem;
   margin-bottom: 30px;
 }
 
@@ -48,7 +49,7 @@ header p {
 
 section {
   width: 90%;
-  margin: 150px auto;
+  margin: 40px auto;
   padding: 70px 0;
   color: white;
   text-shadow: 0 0 10px #444;
@@ -80,20 +81,20 @@ footer p {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .title h1 {
-    font-size: 5rem;
+    font-size: 9rem;
   }
 
   .title p {
-    text-align: left;
+    text-align: center;
   }
 
   header h2 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
   section {
-    padding: 40px 0;
+    padding: 150px 0;
   }
 }
