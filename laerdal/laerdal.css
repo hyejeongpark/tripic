@@ -1,23 +1,80 @@
-header {
-  background: url("image/header.jpg") no-repeat center center fixed;
+.back {
+  background: url("image/back.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 800px;
-  text-align: center;
+  height: 100%;
   width: 100%;
 }
 
-header h1 {
+.title {
+  text-align: center;
   color: white;
-  font-size: 9rem;
   text-shadow: 0 0 15px #222;
+  height: 800px;
+}
+
+.title h1 {
+  font-size: 9rem;
   padding-top: 12rem;
 }
 
-header p {
-  color: white;
-  text-shadow: 0 0 15px #222;
+.title p {
   padding-top: 4rem;
+}
+
+main {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+header {
+  background: white;
+  padding: 70px 0;
+  text-align: center;
+}
+
+header h2 {
+  color: #424358;
+  font-size: 5rem;
+  margin-bottom: 30px;
+}
+
+header p {
+  color: gray;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+section {
+  width: 90%;
+  margin: 150px auto;
+  padding: 70px 0;
+  color: white;
+  text-shadow: 0 0 10px #444;
+}
+
+section h2 {
+  font-size: 4.5rem;
+  margin-left: -3px;
+}
+
+section img {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.img-field {
+  margin-top: 60px;
+}
+
+footer {
+  background: #696A6F;
+  color: white;
+}
+
+footer p {
+  padding: 25px 0;
+  margin: 0;
 }
