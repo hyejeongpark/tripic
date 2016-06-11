@@ -1,17 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100);
+
 body {
   background: #d0eef5; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left, #ffffe2 , #d0eef5); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, #ffffe2, #d0eef5); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(right, #ffffe2, #d0eef5); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, #ffffe2 , #d0eef5); /* Standard syntax */
+  font-family: "Raleway", "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 header {
   text-align: center;
+  margin: 40px 0;
 }
 
 header h1 {
-  font-size: 2rem;
+  font-size: 6rem;
+  font-weight: 100;
 }
 
 main {
@@ -51,7 +56,7 @@ img {
 }
 
 .reply-list hr {
-  margin: 0 15px;
+  margin: 0 19px;
 }
 
 .respond div, input {
@@ -69,6 +74,11 @@ input:focus {
   outline:none;
 }
 
+footer {
+  text-align: center;
+  color: #888;
+}
+
 footer p {
   padding: 25px 0;
   margin: 0;
@@ -82,6 +92,7 @@ footer p {
   width: 50px;
   cursor: pointer;
   background-size:1450px;
+  margin-left: 3px;
 }
 
 .display-none {
