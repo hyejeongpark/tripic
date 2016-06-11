@@ -26,6 +26,12 @@ article {
   border: 1px solid #ccc;
 }
 
+article:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
 article p {
   margin: 0;
 }
@@ -38,6 +44,29 @@ img {
 .content {
   padding: 20px 20px;
   color: #594C5D;
+}
+
+.reply-list p {
+  margin: 0 20px 10px 20px;
+}
+
+.reply-list hr {
+  margin: 0 15px;
+}
+
+.respond div, input {
+  float: left;
+}
+
+input {
+  border: 0;
+  height: 50px;
+  width: 80%;
+  color: #666;
+}
+
+input:focus {
+  outline:none;
 }
 
 footer p {
@@ -53,6 +82,10 @@ footer p {
   width: 50px;
   cursor: pointer;
   background-size:1450px;
+}
+
+.display-none {
+  display: none;
 }
 
 
@@ -76,4 +109,11 @@ footer p {
   -webkit-animation-timing-function: steps(28);
   animation-timing-function: steps(28);
   background-position: right;
+}
+
+
+@media screen and (min-width: 768px) {
+  input {
+    width: 88%;
+  }
 }
