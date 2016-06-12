@@ -1,3 +1,3 @@
 # Tripic project
 
-[hyejeong-park.com/tripic](http://hyejeong-park.com/tripic)
+[tripic.hyejeong-park.com](http://tripic.hyejeong-park.com/)
