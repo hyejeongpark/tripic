@@ -1,3 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
+
+body {
+  font-family: 'Ubuntu', Helvetica, sans-serif;
+}
+
+header {
+  margin: 50px auto;
+}
+
+header h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  color: #078386;
+}
+
+header p {
+  color: #666;
+}
+
+#carousel {
+  margin-bottom: 60px;
+}
+
 #carousel .item{
   margin: 3px;
 }
@@ -6,4 +30,20 @@
   display: block;
   width: 100%;
   height: auto;
+}
+
+footer {
+  text-align: center;
+  color: gray;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    text-align: center;
+    margin: 70px auto;
+  }
+
+  header h1 {
+    font-size: 7.5rem;
+  }
 }
