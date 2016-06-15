@@ -1,10 +1,9 @@
 #carousel .item{
-    background: #42bdc2;
-    padding: 30px 0px;
-    margin: 5px;
-    color: #FFF;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    text-align: center;
+  margin: 3px;
+}
+
+#carousel .item img{
+  display: block;
+  width: 100%;
+  height: auto;
 }
