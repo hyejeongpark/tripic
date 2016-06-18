@@ -1,3 +1,60 @@
-div {
+body {
+  font-family: "Helvetica Neue", Helvetica, Sans-serif;
+}
+
+header {
+  background: #ff6981;
   text-align: center;
+}
+
+header h1 {
+  font-size: 4rem;
+  color: white;
+  font-family: "HelveticaNeue-Thin";
+}
+
+#stavanger {
+  background: #202233;
+  text-align: center;
+}
+
+#kjerag {
+  background: #FFEB3B;
+}
+
+#kjerag h2, #kjerag p {
+  text-align: right;
+}
+
+#kjerag img, #preikestolen img {
+  width: 100%;
+}
+
+#preikestolen {
+  background: #46c9e2;
+}
+
+.slide img {
+  height: 80%;
+}
+
+.section h2 {
+  font-size: 4rem;
+  font-weight: lighter;
+}
+
+footer p {
+  text-align: center;
+  padding: 25px 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  header h1 {
+    font-size: 10rem;
+  }
+
+  .section h2 {
+    font-size: 5rem;
+  }
 }
