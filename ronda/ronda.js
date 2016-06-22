@@ -4,5 +4,5 @@ var dday = Math.ceil((now.getTime() - then.getTime()) / (1000 * 60 * 60 * 24));
 
 
 $(document).ready(function(){
-  $('body').text("D + " + dday);
+  $('.dday').text("D + " + dday);
 });
