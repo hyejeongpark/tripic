@@ -2,9 +2,18 @@ body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
+header {
+  margin: 50px auto;
+}
+
 header h1{
   font-size: 4rem;
-  margin: 50px auto;
+  margin-left: -2px;
+}
+
+header p {
+  font-weight: 300;
+  font-size: 1.5rem;
 }
 
 main {
