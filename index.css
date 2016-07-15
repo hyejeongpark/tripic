@@ -3,7 +3,7 @@ body {
 }
 
 header {
-  margin: 50px auto;
+  margin-top: 50px;
 }
 
 header h1{
@@ -18,4 +18,8 @@ header p {
 
 main {
   margin-bottom: 50px;
+}
+
+main h2 {
+  margin-top: 50px;
 }
